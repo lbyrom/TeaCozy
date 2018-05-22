@@ -64,7 +64,7 @@ nav span {
 .flex-container {
   display: flex;
   justify-content: center;
-  flex-wrap: warp;
+  flex-wrap: wrap;
 }
 
 #mission .content {
@@ -76,4 +76,30 @@ nav span {
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
+}
+
+/* Store Container*/
+#store {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+  display: block;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
