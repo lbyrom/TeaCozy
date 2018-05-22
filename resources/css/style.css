@@ -10,6 +10,10 @@ body {
   text-align: center;
 }
 
+a {
+  color: seashell;
+}
+
 /* Header */
 
 header {
