@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 body {
   margin: 0;
   font-family: "helvetica", sans-serif;
@@ -10,15 +12,15 @@ body {
 
 /* Header */
 
-
 header {
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 1
+  z-index: 1;
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
+  background-color: black;
 }
 
 .flex-container {
@@ -30,4 +32,48 @@ header {
 header img {
   height: 50px;
   padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* Main Container */
+.main-container {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Container */
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: warp;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
 }
